@@ -1,0 +1,38 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS variables */
+:root {
+    --primary-font: "Montserrat", italic; 
+    --secondary-font: 'Courier Prime', courier; 
+    --primary-color:rgba(10, 36, 89, 1);
+    --secondary-color: rgba(24, 59, 89, 1);
+    --highlight-color-mid: rgba(42, 80, 89, 1);
+    --highlight-color: rgba(49, 114, 84, 1);
+    --highlight-color-light: rgb(234, 240, 232);
+}
+
+
+
+
+/* Global styles */
+body {
+    background-color: var(--highlight-color-light);
+    padding-top: 57.15px; 
+} 
+
+h1, h2 {
+    font-family: var(--secondary-font);
+    color: var(--highlight-color-mid);
+    text-transform: uppercase; 
+}
+
+p {
+    font-family: var(--primary-font);
+    color: var(--highlight-color)
+}
+
+/* navbar styling */
+#navbar {
+    background-color: var(--primary-color);
+} 
