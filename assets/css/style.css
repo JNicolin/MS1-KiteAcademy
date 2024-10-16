@@ -108,7 +108,7 @@ p {
 
 /* Equipment page styling */
 #hero {
-    height: 1000px;
+    height: 900px;
     width: 100%;
     background: url('/assets/images/Kite_equipment_beach.jpg') no-repeat center center/cover;
     position: relative;
@@ -126,4 +126,8 @@ p {
     padding-top: 40px;
     padding-left: 10px;
     position: absolute;
+}
+
+#eq-form {
+    border: 1px solid lightgrey;
 }
