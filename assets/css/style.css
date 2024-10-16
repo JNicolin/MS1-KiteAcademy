@@ -71,11 +71,6 @@ p {
     width: 50px;
 }
 
-/* Header styling */
-#header img {
-    max-height: 350px;
-}
-
 /* Footer styling */
 #contact {
     color: var(--highlight-color-light);
@@ -101,4 +96,7 @@ p {
     color: var(--highlight-color-light);
 }
 
-
+/* Events section styling */
+#events {
+    margin-bottom: 2rem;
+}
