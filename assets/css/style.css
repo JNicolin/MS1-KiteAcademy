@@ -100,3 +100,10 @@ p {
 #events {
     margin-bottom: 2rem;
 }
+
+/* Booking styling */
+#sign-up {
+    background-image: url("../images/Carousel_Photo\ 3.jpg");
+    background-size: cover;
+    position: fixed;
+}
