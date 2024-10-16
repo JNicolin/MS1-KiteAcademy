@@ -37,10 +37,37 @@ p {
     padding-top: 4rem;
 }
 
+/* Button styling */
+.custom-button-filled {
+    background-color: var(--highlight-color); 
+    border: 2px solid var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    background-color: var(--secondary-color); 
+    border: 2px solid var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 2px solid var(--highlight-color);
+    color: var(--highlight-color);
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color); 
+    color: white;
+}
+
 /* Navbar styling */
 #navbar {
     background-color: var(--primary-color);
 } 
+
+#navbar .logo {
+    width: 50px;
+}
 
 /* Footer styling */
 #contact {
