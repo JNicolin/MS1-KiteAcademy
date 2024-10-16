@@ -5,27 +5,16 @@
 :root {
     --primary-font: "Courier Prime"; 
     --secondary-font: 'Montserrat'; 
-    --primary-color:#0e1b42; /* blue zodiac */
-    --secondary-color: #2f4462; /* rhino */
-    --highlight-color: #fef6d1; /* gray-nickel */
-    --highlight-color-light: #ffffff; /* white */
-    /*
-    --gray-nickel: #c7c7c2;
-    --rhino: #2f4462;
-    --bermuda-gray: #7288a1;
-    --nepal: #99adc1;
-    --nepal: #8ba0bd;
-    --jumbo: #706d75;
-    --shuttle-gray: #58657a;
-    --waikawa-gray: #567196;
-    --paco: #3d1310;
-    --blue-zodiac: #0e1b42;
-    */
+    --primary-color:#0e1b42; /* dark blue */
+    --secondary-color: #264066; /* lighter blue */
+    --tertiary-color: white; /* white */
+    --highlight-color: #ffc04d; /* yellow */
+    --highlight-color-light: #fff59a; /* lighter yellow */
 }
 
 /* Global styles */
 body {
-    background-color: var(--highlight-color-light);
+    background-color: var(--tertiary-color);
     padding-top: 57.15px; 
 } 
 
@@ -61,7 +50,7 @@ p {
 
 #contact p {
     color: var(--highlight-color-light)
-}
+}   
 #contact li {
     list-style-type: none;
 }
@@ -74,6 +63,8 @@ p {
     list-style-type: none;
 }
 
-.social-networks i {
+.social-networks a {
     color: var(--highlight-color-light);
 }
+
+
