@@ -3,17 +3,25 @@
 
 /* CSS variables */
 :root {
-    --primary-font: "Montserrat", italic; 
-    --secondary-font: 'Courier Prime', courier; 
-    --primary-color:rgba(10, 36, 89, 1);
-    --secondary-color: rgba(24, 59, 89, 1);
-    --highlight-color-mid: rgba(42, 80, 89, 1);
-    --highlight-color: rgba(49, 114, 84, 1);
-    --highlight-color-light: rgb(234, 240, 232);
+    --primary-font: "Courier Prime"; 
+    --secondary-font: 'Montserrat'; 
+    --primary-color:#0e1b42; /* blue zodiac */
+    --secondary-color: #2f4462; /* rhino */
+    --highlight-color: #fef6d1; /* gray-nickel */
+    --highlight-color-light: #ffffff; /* white */
+    /*
+    --gray-nickel: #c7c7c2;
+    --rhino: #2f4462;
+    --bermuda-gray: #7288a1;
+    --nepal: #99adc1;
+    --nepal: #8ba0bd;
+    --jumbo: #706d75;
+    --shuttle-gray: #58657a;
+    --waikawa-gray: #567196;
+    --paco: #3d1310;
+    --blue-zodiac: #0e1b42;
+    */
 }
-
-
-
 
 /* Global styles */
 body {
@@ -22,17 +30,50 @@ body {
 } 
 
 h1, h2 {
-    font-family: var(--secondary-font);
-    color: var(--highlight-color-mid);
+    font-family: var(--primary-font);
+    color: var(--primary-color);
     text-transform: uppercase; 
 }
 
-p {
-    font-family: var(--primary-font);
-    color: var(--highlight-color)
+.sub-heading-color {
+    color: var(--highlight-color);
 }
 
-/* navbar styling */
+p {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color)
+}
+
+.section {
+    padding-top: 4rem;
+}
+
+/* Navbar styling */
 #navbar {
     background-color: var(--primary-color);
 } 
+
+/* Footer styling */
+#contact {
+    color: var(--highlight-color-light);
+    background-color: var(--secondary-color);
+}
+
+#contact p {
+    color: var(--highlight-color-light)
+}
+#contact li {
+    list-style-type: none;
+}
+
+.social-networks {
+    font-size: 2rem;
+    padding: 2% 0;
+    display: flex; 
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.social-networks i {
+    color: var(--highlight-color-light);
+}
