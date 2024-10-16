@@ -12,7 +12,6 @@
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body>
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 <!-- <body class="d-flex flex-column min-vh-100"> -->
 <body class="d-flex flex-column min-vh-100">
@@ -31,16 +30,16 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="index.html#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#events">Events</a>
+                    <a class="nav-link" href="index.html#events">Events</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Equipment</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="index.html#contact">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a href="booking.html" class="btn custom-button-filled ms-lg-3">Book now</a>
@@ -51,14 +50,49 @@
     </nav>   
     
     <main>
-        <div class="container section">
+        <div class="container section" id="sign-up">
             <div class="row">
-                <div id="sign-up" class="col-12">
-                    
-                </div>
+                <h2>Booking inquiry</h2>
+                <form action="success.html" method="GET">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input class="form-control" id="name" name="name" type="text" required>
+                        </div>
+                        <div class="col-12 col-lg-4 mb-3">
+                            <label for="phone" class="form-label">Phone number</label>
+                            <input class="form-control" id="phone" name="phone" type="number" required>
+                        </div>
+                        <div class="col-12 col-lg-4 mb-3">
+                             <label for="email" class="form-label">Email</label>
+                            <input class="form-control" id="email" name="email" type="email" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="event-type" class="form-label">Event type</label>
+                            <select id="event-type" class="form-select" name="event-type" required>
+                                <option value="" selected>Select</option>
+                                <option value="1-day-class">1-day training</option>
+                                <option value="2-day-class">2-day training</option>
+                                <option value="camp-swe">Camp in Sweden</option>
+                                <option value="camp-nor">Camp in Norway</option>
+                                <option value="camo-den">Camp in Denmark</option>
+                                <option value="newsletter">Newsletter</option>
+                                <option value="equipment">Equipment guidance</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="date" class="form-label">Requested date</label>
+                            <input id="date" type="date" class="form-control" name="date" required>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" rows="6" id="message" name="message"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn custom-button-outline">Submit</button>
+                </form>
             </div>    
-        </div>
-        
+        </div> 
     </main>
     
     <!-- Footer /contact section -->

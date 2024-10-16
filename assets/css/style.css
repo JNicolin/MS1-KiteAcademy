@@ -103,7 +103,5 @@ p {
 
 /* Booking styling */
 #sign-up {
-    background-image: url("../images/Carousel_Photo\ 3.jpg");
-    background-size: cover;
-    position: fixed;
+    background: url('/assets/images/Kite_landscape_winter.jpg') no-repeat cover cover/center;
 }
