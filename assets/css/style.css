@@ -1,8 +1,6 @@
 /* Google fonts import */
-/*
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-*/
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* CSS variables */
 :root {
     --primary-font: "Agdasima", bold; 
@@ -15,11 +13,6 @@
 }
 
 /* Global styles */
-body {
-    background-color: var(--tertiary-color);
-    padding-top: 57.15px; 
-} 
-
 h1, h2 {
     font-family: var(--primary-font);
     color: var(--primary-color);
@@ -36,7 +29,7 @@ p {
 }
 
 .section {
-    padding-top: 4rem;
+    padding-top: 76px;
 }
 
 /* Button styling */
@@ -101,7 +94,36 @@ p {
     margin-bottom: 2rem;
 }
 
-/* Booking styling */
+/* Booking page styling */
 #sign-up {
-    background: url('/assets/images/Kite_landscape_winter.jpg') no-repeat cover cover/center;
+    margin-top: 76px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+/* Acknowledgement page styling */
+#acknowledge {
+    padding-top: 5rem;
+}
+
+/* Equipment page styling */
+#hero {
+    height: 1000px;
+    width: 100%;
+    background: url('/assets/images/Kite_equipment_beach.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text h1, #cover-text h2, #cover-text p {
+    color: var(--primary-color);
+}
+
+#cover-text {
+    background-color: rgba(255, 192, 77, .7);
+    min-height: 300px;
+    width: 80%;
+    bottom: 30px;
+    padding-top: 40px;
+    padding-left: 10px;
+    position: absolute;
 }
