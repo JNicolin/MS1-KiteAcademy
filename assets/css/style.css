@@ -5,15 +5,15 @@
 :root {
     --primary-font: "Agdasima", bold; 
     --secondary-font: 'Montserrat'; 
-    --primary-color:#0e1b42; /* dark blue */
+    --primary-color: #0e1b42; /* dark blue*/
     --secondary-color: #264066; /* lighter blue */
     --tertiary-color: white; /* white */
-    --highlight-color: #f1072a; /* yellow ffc04d*/
+    --highlight-color: #f5a105; /* yellow ffc04d*/
     --highlight-color-light: #fff59a; /* lighter yellow */
 }
 
 /* Global styles */
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--primary-font);
     color: var(--primary-color);
     text-transform: uppercase; 
