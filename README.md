@@ -14,9 +14,21 @@ The main page leads over to a second page focusing the equipment needed for kite
 - To promote the Academy professionalism toward suppliers and other professionals in the domain of Kitesurfing
 - To promote the Academy professionalism for potential partnerships with winter or summer resorts 
 
-# User goals, user stories
+# User stories
+## Kitesurfers 
 - To learn more about the Kitesurfing Academy scope and procedures
 - To find information about how to learn or improve on Kitesuring practices
 - To find information about kite equipment
 - To be informed about events organized by the Academy
 - To find information aboout how to contact the Academy and how to enroll in actvities
+## Trainers associated with the Academy
+-  To know who has enrolled to events 
+-  To know what level of experience enrolled students have
+-  To know if there are any particular circumstances or requests placed by the students 
+
+## Administrators with the Academy
+-  To capture addresses and personal details about those enrolling, to target them with correct information and invoicing
+-  To capture consent to engage in further communication, promoting loyalty
+  
+# Design
+ 
