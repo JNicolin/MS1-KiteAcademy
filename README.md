@@ -6,3 +6,15 @@ The main page states the purpose and beliefs of the Academy as an introduction, 
 The main page leads over to a second page focusing the equipment needed for kitesurfing. This page highlights how the Academy supports surfers in selecting and eventually acquiring their own equipment. Intersted parties can use a dedicated form to place an inquiry for assistance. 
 
 ![Mockup image of the website on various devices](assets/screenshots/Website_mockup.png)
+
+# Site owner goals
+## Project idea
+Build a website for a kitesurf school or academy based in Stockholm
+
+## External user’s goal
+The site's users are active clients and potential clients, who want to know more about about kitesurfing in general, and Kitesurfing around Stockholm in particualr, as well as being informed about the surfschool and its procedures.
+
+## Site owner's goal
+The surf school is interested in attracting and retaining clients
+
+## User perspective
