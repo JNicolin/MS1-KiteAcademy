@@ -31,4 +31,3 @@ The main page leads over to a second page focusing the equipment needed for kite
 -  To capture consent to engage in further communication, promoting loyalty
   
 # Design
- 
