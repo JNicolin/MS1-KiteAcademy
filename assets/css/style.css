@@ -8,7 +8,7 @@
     --primary-color: #0e1b42; /* Deep blue*/
     --secondary-color: #264066; /* Lighter blue */
     --tertiary-color: white; /* White */
-    --highlight-color: #d57805; /* Orange ffc04d*/
+    --highlight-color: rgb(243, 159, 4); /* Orange ffc04d*/
     --highlight-color-light: #f8ea72; /* Yellow */
 }
 
@@ -44,7 +44,7 @@ p {
 .custom-button-filled {
     background-color: var(--highlight-color); 
     border: 2px solid var(--highlight-color);
-    color: white;
+    color: var(--primary-color);
 }
 
 .custom-button-filled:hover {
@@ -101,11 +101,6 @@ p {
 #events {
     margin-bottom: 2rem;
 }
-
-#events a {
-    font-weight: bold;
-}
-
 
 /* Booking page styling */
 #sign-up {
