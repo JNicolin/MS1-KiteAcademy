@@ -110,7 +110,7 @@ p {
 #hero {
     height: 900px;
     width: 100%;
-    background: url('/assets/images/Kite_equipment_beach.jpg') no-repeat center center/cover;
+    background: url('../images/Kite_equipment_beach.jpg') no-repeat center center/cover;
     position: relative;
 }
 
