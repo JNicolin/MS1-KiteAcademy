@@ -5,3 +5,4 @@ The main page states the purpose and beliefs of the Academy as an introduction, 
 
 The main page leads over to a second page focusing the equipment needed for kitesurfing. This page highlights how the Academy supports surfers in selecting and eventually acquiring their own equipment. Intersted parties can use a dedicated form to place an inquiry for assistance. 
 
+![Mockup image of the website on various devices]()
