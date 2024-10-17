@@ -97,6 +97,11 @@ p {
     color: var(--highlight-color-light);
 }
 
+#footer_map {
+    width: 100%;
+    height: 155px;
+}
+
 /* Events section styling */
 #events {
     margin-bottom: 2rem;
@@ -139,3 +144,8 @@ p {
 #eq-form {
     border: 1px solid lightgrey;
 }
+
+.carousel-item img {
+    height: 375px !important;
+}
+
