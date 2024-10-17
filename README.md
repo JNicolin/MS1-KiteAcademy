@@ -100,11 +100,11 @@ The Navbar contains the dedicated Logo designed for the Academy. Further, the na
 The main page top has the heading of the Academy to make it clear what site a visitor has landed on, followed by a line stating the main mission of the Academy - "training". The top holds a declaration of what Kite Academy Stockholm values and beliefs.  
 
 ## Services section with clear Call To Action
-![CTA](assets/screenshots/Feature_Form.png)
+![CTA](assets/screenshots/Feature_Reservation.png)
 The content of the main page is dedicated to the services offered by the Academy. They are presented via clean cards with a crisp header, a motivating illustration and the price. 
 
-## Equipment reservation form 
-![Resrvation form](assets/screenshots/Feature_Reservation.png)
+## Equipment reservation form embedded in the second page 
+![Resrvation form](assets/screenshots/Feature_Reservation_Eq.png)
 The equipemt page holds a form allowing for requesting access to gear or guidance on gear. It holds mandatory fields for collecting user identfication and addresses. 
 
 # Validation and testing
@@ -125,10 +125,10 @@ There are links on all pages, in the navbar and in buttons Test-cases
 - Hover-effect correct on buttons 
 
 Result 
--	the button on the index-page was leading to the top of the index-page rather than to the booking form. 
+-	the button on the index-page was leading to the top of the index-page rather than to the booking form.
+- There was an absolute link in the URL to the Hero-section background-image. No image was displayed at first deploy.  
 
 No remaining bugs. All testcases passed OK!
--	There was an absolute link in the URL to the Hero-section background-image. No image was displayed at first deploy. 
 
 ## Automated testing
 
