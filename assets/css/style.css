@@ -8,7 +8,7 @@
     --primary-color: #0e1b42; /* Deep blue*/
     --secondary-color: #264066; /* Lighter blue */
     --tertiary-color: white; /* White */
-    --highlight-color: #e37f05; /* Orange ffc04d*/
+    --highlight-color: #d57805; /* Orange ffc04d*/
     --highlight-color-light: #f8ea72; /* Yellow */
 }
 
@@ -101,6 +101,11 @@ p {
 #events {
     margin-bottom: 2rem;
 }
+
+#events a {
+    font-weight: bold;
+}
+
 
 /* Booking page styling */
 #sign-up {
