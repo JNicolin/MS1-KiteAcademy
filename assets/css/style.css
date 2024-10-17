@@ -8,14 +8,15 @@
     --primary-color: #0e1b42; /* dark blue*/
     --secondary-color: #264066; /* lighter blue */
     --tertiary-color: white; /* white */
-    --highlight-color: #f5a105; /* yellow ffc04d*/
-    --highlight-color-light: #fff59a; /* lighter yellow */
+    --highlight-color: #f79000; /* yellow ffc04d*/
+    --highlight-color-light: #f8ea72; /* lighter yellow */
 }
 
 /* Global styles */
 h1, h2, h3 {
     font-family: var(--primary-font);
     color: var(--primary-color);
+    padding-bottom: 0.5rem;
     text-transform: uppercase; 
 }
 
@@ -29,6 +30,10 @@ p {
 }
 
 .section {
+    padding-top: 25px;
+}
+
+#header {
     padding-top: 76px;
 }
 
@@ -108,7 +113,7 @@ p {
 
 /* Equipment page styling */
 #hero {
-    height: 900px;
+    height: 800px;
     width: 100%;
     background: url('../images/Kite_equipment_beach.jpg') no-repeat center center/cover;
     position: relative;
