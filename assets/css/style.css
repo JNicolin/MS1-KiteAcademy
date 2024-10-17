@@ -5,11 +5,11 @@
 :root {
     --primary-font: "Agdasima", bold; 
     --secondary-font: 'Montserrat'; 
-    --primary-color: #0e1b42; /* dark blue*/
-    --secondary-color: #264066; /* lighter blue */
-    --tertiary-color: white; /* white */
-    --highlight-color: #f79000; /* yellow ffc04d*/
-    --highlight-color-light: #f8ea72; /* lighter yellow */
+    --primary-color: #0e1b42; /* Deep blue*/
+    --secondary-color: #264066; /* Lighter blue */
+    --tertiary-color: white; /* White */
+    --highlight-color: #f79000; /* Orange ffc04d*/
+    --highlight-color-light: #f8ea72; /* Yellow */
 }
 
 /* Global styles */
@@ -22,6 +22,9 @@ h1, h2, h3 {
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+.card .sub-heading-color {
+    color: var(--primary-color);
 }
 
 p {
