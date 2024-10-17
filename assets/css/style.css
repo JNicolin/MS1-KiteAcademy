@@ -8,7 +8,7 @@
     --primary-color: #0e1b42; /* Deep blue*/
     --secondary-color: #264066; /* Lighter blue */
     --tertiary-color: white; /* White */
-    --highlight-color: #f79000; /* Orange ffc04d*/
+    --highlight-color: #e37f05; /* Orange ffc04d*/
     --highlight-color-light: #f8ea72; /* Yellow */
 }
 
@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 .sub-heading-color {
-    color: var(--highlight-color);
+    color: var(--highlight-color-light);
 }
 .card .sub-heading-color {
     color: var(--primary-color);
