@@ -52,23 +52,23 @@
     <main>
         <div class="container section" id="sign-up">
             <div class="row">
-                <h2>Booking inquiry</h2>
+                <h2 class="display-6">Service inquiry</h2>
                 <form action="acknowledge.html" method="GET">
                     <div class="row">
                         <div class="col-12 col-lg-4 mb-3">
-                            <label for="name" class="form-label">Name</label>
+                            <label for="name" class="form-label">Your full name</label>
                             <input class="form-control" id="name" name="name" type="text" required>
                         </div>
                         <div class="col-12 col-lg-4 mb-3">
-                            <label for="phone" class="form-label">Phone number</label>
+                            <label for="phone" class="form-label">Your phone number</label>
                             <input class="form-control" id="phone" name="phone" type="number" required>
                         </div>
                         <div class="col-12 col-lg-4 mb-3">
-                             <label for="email" class="form-label">Email</label>
+                             <label for="email" class="form-label">Your email</label>
                             <input class="form-control" id="email" name="email" type="email" required>
                         </div>
                         <div class="col-12 col-lg-6 mb-3">
-                            <label for="event-type" class="form-label">Event type</label>
+                            <label for="event-type" class="form-label">Select one of our services</label>
                             <select id="event-type" class="form-select" name="event-type" required>
                                 <option value="" selected>Select</option>
                                 <option value="1-day-class">1-day training</option>
@@ -76,8 +76,8 @@
                                 <option value="camp-swe">Camp in Sweden</option>
                                 <option value="camp-nor">Camp in Norway</option>
                                 <option value="camo-den">Camp in Denmark</option>
-                                <option value="newsletter">Newsletter</option>
-                                <option value="equipment">Equipment guidance</option>
+                                <option value="equipment">Equipment dialogue</option>
+                                <option value="hangout">Hangout-session</option>
                             </select>
                         </div>
                         <div class="col-12 col-lg-6 mb-3">
@@ -85,11 +85,12 @@
                             <input id="date" type="date" class="form-control" name="date" required>
                         </div>
                         <div class="col-12 mb-3">
-                            <label for="message" class="form-label">Message</label>
+                            <label for="message" class="form-label">Leave a message</label>
                             <textarea class="form-control" rows="6" id="message" name="message"></textarea>
                         </div>
                     </div>
-                    <button type="submit" class="btn custom-button-outline">Submit</button>
+                    <button type="submit" class="btn custom-button-filled">Submit</button>
+                    <a href="index.html" class="btn custom-button-outline">Leave</a>
                 </form>
             </div>    
         </div> 
