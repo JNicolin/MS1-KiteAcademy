@@ -31,3 +31,54 @@ The main page leads over to a second page focusing the equipment needed for kite
 -  To capture consent to engage in further communication, promoting loyalty
   
 # Design
+## Images
+The images used on the site are chosen to promote the values communicated in text by Kite Academy Stockholm, which are typically "Fun", "Joy", "Nature". The images are further chosen to convey the idea that Kitesurfing is for everyone, that it can be mastered and that it is a social and inclusive sport that encourages the cooperation with other surfers. Finally, being based in Scandinavia, the summer period is not very long, why the Academy is active with training on snow during winter time, which is an important differentiator for this Academy, and promoted by the images
+
+## Fonts
+There are two fonts used in the website. Both quite simplistic and clean, quite natural and straight-forward. As is Kitesurfing. Modern, fast and clean.
+
+## Colors 
+The color scheme is based on shades of Blue, Orange and White. Blue is associated with the sea, Orange with the Sun and energy and White for cleanliness, distinction and snow. The choice of blue and orange, along with red, is very much used in the Kitesurfing domain on the Web.
+
+# Wireframes
+
+
+# Features
+
+# Validation and testing
+## Manual testing
+## Automated testing
+## Validator testing
+### HTML validation
+### CSS validation
+### Accessibilty
+## Forms testing
+## Links testing
+## Browser testing
+## Device testing
+## Fixed bugs
+### Fixed 1
+### Fixed 2
+
+## Known bugs
+### Sizing of images accross devices
+
+# Technology used
+## Frameworks - Libraries - Programs used
+
+# Deployment
+
+
+# Credits
+## Content
+## Media
+## Resources used
+
+# Acknowledgements
+My mentor Antonio for being available, professional and supportive.
+
+The Code institute Slack community for being quick in replies and support. 
+
+My family for being supportive during late nights. 
+
+

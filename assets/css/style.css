@@ -102,9 +102,14 @@ p {
     height: 155px;
 }
 
-/* Events section styling */
+
+/* Main page styling */
 #events {
     margin-bottom: 2rem;
+}
+
+.carousel-item img {
+    height: 450px !important;
 }
 
 /* Booking page styling */
@@ -145,7 +150,5 @@ p {
     border: 1px solid lightgrey;
 }
 
-.carousel-item img {
-    height: 375px !important;
-}
+
 
