@@ -116,7 +116,7 @@ p {
 
 /* Equipment page styling */
 #hero {
-    height: 800px;
+    height: 75vh;
     width: 100%;
     background: url('../images/Kite_equipment_beach.jpg') no-repeat center center/cover;
     position: relative;
@@ -128,7 +128,7 @@ p {
 
 #cover-text {
     background-color: rgba(255, 192, 77, .7);
-    min-height: 300px;
+    min-height: 40vh;
     width: 80%;
     bottom: 30px;
     padding-top: 40px;
