@@ -169,9 +169,10 @@ HTML-related
 -	Visual sizing and positioning of images with varying orignal size and layout. Use of relative measures rather than fixed values worked well. 
 -	Many iterations on trimming of paddings and margins to get harmony across all screen sizes. 
 -	Some mistakes from copy/paste when reusing code between html-files. Notably reusing Navbar, Footer and custom Button elements.
+- Maintaining the correct aspect ratio was somewhat tricky to a start. 
 
 ## Known bugs
-Sizing of images in the carousel is not 100% identical accross devices. There is a slight variance in photos when reaching breakpoint Medium. 
+No known remaining bugs. 
 
 # Technology used
 ## Languages
