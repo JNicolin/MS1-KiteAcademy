@@ -140,9 +140,9 @@ Testing for responsiveness passed OK!
 ## Automated testing
 The Kite Academy site is tested using Chrome Lighthouse for Good practices, Performance and Accessibility.
 
-![Screenshot of the outcome from automated testing of performance](assets/screenshots/Lighthouse.png)
+![Screenshot of the outcome from automated testing of performance](assets/screenshots/AutomaticTesting_Lighthouse.png)
 
-Accessibility score of 76% comes from warnings on 3:rd party cookies associated with the Google maps iFrame. Excluding these gives a result of 100%.
+Accessibility score of 79% comes from warnings on 3:rd party cookies associated with the Google maps iFrame. Excluding these gives a result of 100%.
 
 ## Validator testing
 ### HTML validation
