@@ -3,20 +3,22 @@ Kite Academy Stockholm is a website that aims to attract the attention of potent
 
 The main page states the purpose and beliefs of the Academy as an introduction, while displaying a set of inspiring images showing kite-surfing on water and on snow. The main page displays information about the range of services offered, the events planned. 
 
-The main page leads over to a second page focusing the equipment needed for kitesurfing. This page highlights how the Academy supports surfers in selecting and eventually acquiring their own equipment. Intersted parties can use a dedicated form to place an inquiry for assistance. 
+The main page leads over to a second page focusing the equipment needed for kitesurfing. This page highlights how the Academy supports surfers in selecting and eventually acquiring their own equipment. Intersted parties can use a dedicated form to place an inquiry for assistance.
+
+You can access the deployed webpage here [Kite Academy Stockholm](https://jnicolin.github.io/MS1-KiteAcademy/).
 
 ![Mockup image of the website on various devices](assets/screenshots/MockUp_Devices.png)
 
 # Table of Contents
-- [Site Owner Goals](#owner)
+- [Site Owner Goals](#Site)
 - [User stories](#User)
 - [Design](#design)
 - [Features](#features)
-- [Technology](#tech)
-- [Validation and Testing](#qa)
+- [Technology used](#Technology)
+- [Validation and Testing](#Validation)
 - [Deployment](#deployment)
 - [Credits](#Credits)
-- [Acknowledgment](#ack)
+- [Acknowledgments](#Acknowledgements)
 
 # Site owner goals
 - To promote and inspire about the practice of Kitesurfing in general
@@ -26,20 +28,20 @@ The main page leads over to a second page focusing the equipment needed for kite
 - To promote the Academy professionalism for potential partnerships with winter or summer resorts 
 
 # User stories
-## Kitesurfers 
-- To learn more about the Kitesurfing Academy scope and procedures
-- To find information about how to learn or improve on Kitesuring practices
-- To find information about kite equipment
-- To be informed about events organized by the Academy
-- To find information aboout how to contact the Academy and how to enroll in actvities
-## Trainers associated with the Academy
--  To know who has enrolled to events 
--  To know what level of experience enrolled students have
--  To know if there are any particular circumstances or requests placed by the students 
+## As a Kitesurfer, I want to 
+- learn more about the Kitesurfing Academy scope and procedures
+- find information about how to learn or improve on Kitesuring practices
+- find information about kite equipment
+- be informed about events organized by the Academy
+- find information aboout how to contact the Academy and how to enroll in actvities
+## As a Trainer associated with the Academy, I want to
+-  know who has enrolled to events 
+-  know what level of experience enrolled students have
+-  know if there are any particular circumstances or requests placed by the students 
 
-## Administrators with the Academy
--  To capture addresses and personal details about those enrolling, to target them with correct information and invoicing
--  To capture consent to engage in further communication, promoting loyalty
+## As an Administrators engaged with the Academy, I want to
+-  capture addresses and personal details about those enrolling, to target them with correct information and invoicing
+-  capture consent to engage in further communication, promoting loyalty
   
 # Design
 ## Images
@@ -130,6 +132,11 @@ Result
 
 No remaining bugs. All testcases passed OK!
 
+### Testing for responsiveness
+Cross-browser testing was done to validate the responsiveness of the website accross different screensizes and positions. Tools like Chrome Inspect and the dedicated Responsinator.com were used. 
+
+Testing for responsiveness passed OK!
+
 ## Automated testing
 
 ### Validator testing
@@ -205,6 +212,9 @@ The deployed site is available via this [Link](https://jnicolin.github.io/MS1-Ki
 - Kelsey Chance
 
 [Openart AI for generating images](https://openart.ai)
+- Two of the photos under section "Services" of the main page were AI-generated using Openart AI's prompting.
+1. Trainings
+2. Equipment
 
 
 ## Resources used
