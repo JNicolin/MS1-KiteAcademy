@@ -202,6 +202,9 @@ The deployed site is available via this [Link](https://jnicolin.github.io/MS1-Ki
 - Gerald Schömbs
 - Matt Bensom
 - Dick Hoogerdijk
+- Kelsey Chance
+
+[Openart AI for generating images](https://openart.ai)
 
 
 ## Resources used
