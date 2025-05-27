@@ -34,7 +34,7 @@ You can access the deployed webpage here [Kite Academy Stockholm](https://jnicol
 - Explore equipment options — Understand what gear is available for rent or purchase, and request the right equipment for their skill level and preferences.
 - Evaluate the Academy’s credibility — Read testimonials, see instructor profiles, and view images from real training sessions to build confidence before committing.
 - Access the site on any device — Enjoy a responsive, mobile-friendly experience that allows them to explore and interact with the site wherever they are.
-- Sign up for news and offers — Subscribe to newsletters or opt in for further contact to stay updated on future events, opportunities, and exclusive content.
+- Sign up for news and offers — Subscribe to newsletters and opt in for further contact to stay updated on future events, opportunities, and exclusive content.
 
 # Design
 ## Images
