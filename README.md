@@ -10,39 +10,32 @@ You can access the deployed webpage here [Kite Academy Stockholm](https://jnicol
 ![Mockup image of the website on various devices](assets/screenshots/MockUp_Devices.png)
 
 # Table of Contents
-- [Site Owner Goals](#Site)
-- [User stories](#User)
-- [Design](#design)
-- [Features](#features)
+- [Site owner goals](#Site)
+- [User goals](#User)
+- [Design](#Design)
+- [Features](#Features)
 - [Technology used](#Technology)
+- [Agile project planning](#Agile)
 - [Validation and Testing](#Validation)
-- [Deployment](#deployment)
+- [Deployment](#Deployment)
 - [Credits](#Credits)
 - [Acknowledgments](#Acknowledgements)
 
 # Site owner goals
-- To promote and inspire about the practice of Kitesurfing in general
-- To promote the services offered by the Academy to Kitesurfers around Stockholm in particular
-- To attract new users to the website, that ultimately end up becoming an active client or member of the Academy community
-- To promote the Academy professionalism toward suppliers and other professionals in the domain of Kitesurfing
-- To promote the Academy professionalism for potential partnerships with winter or summer resorts 
+- Inspire interest in kitesurfing by showcasing the joy, accessibility, and adventure of the sport to a broad audience through compelling visuals and engaging content.
+- Promote the Academy’s services — including lessons, camps, and gear rentals — specifically targeting the active and growing kitesurfing community in the Stockholm region.
+- Attract new visitors through clear course information, testimonials, and easy sign-up processes, converting them into active clients and community members.
+- Demonstrate professionalism to equipment suppliers and industry professionals by highlighting client referrals, and structured training offerings.
 
-# User stories
-## As a Kitesurfer, I want to 
-- learn more about the Kitesurfing Academy scope and procedures
-- find information about how to learn or improve on Kitesuring practices
-- find information about kite equipment
-- be informed about events organized by the Academy
-- find information aboout how to contact the Academy and how to enroll in actvities
-## As a Trainer associated with the Academy, I want to
--  know who has enrolled to events 
--  know what level of experience enrolled students have
--  know if there are any particular circumstances or requests placed by the students 
+# User goals
+- Learn about kitesurfing — Discover what the sport involves, how to get started, and what training options exist, in a beginner-friendly and visually inspiring way.
+- Find suitable lessons and events — Easily browse available training sessions, surf camps, and events that match their level and interests, with clear guidance on how to enroll.
+- Get in touch with the Academy — Quickly submit questions or requests through intuitive forms, whether for bookings, rentals, or general inquiries.
+- Explore equipment options — Understand what gear is available for rent or purchase, and request the right equipment for their skill level and preferences.
+- Evaluate the Academy’s credibility — Read testimonials, see instructor profiles, and view images from real training sessions to build confidence before committing.
+- Access the site on any device — Enjoy a responsive, mobile-friendly experience that allows them to explore and interact with the site wherever they are.
+- Sign up for news and offers — Subscribe to newsletters or opt in for further contact to stay updated on future events, opportunities, and exclusive content.
 
-## As an Administrators engaged with the Academy, I want to
--  capture addresses and personal details about those enrolling, to target them with correct information and invoicing
--  capture consent to engage in further communication, promoting loyalty
-  
 # Design
 ## Images
 The images used on the site are chosen to promote the values communicated in text by Kite Academy Stockholm, which are typically "Fun", "Joy", "Nature".
@@ -109,30 +102,73 @@ The content of the main page is dedicated to the services offered by the Academy
 ![Resrvation form](assets/screenshots/Feature_Reservation_Eq.png)
 The equipemt page holds a form allowing for requesting access to gear or guidance on gear. It holds mandatory fields for collecting user identfication and addresses. 
 
+# Agile methodology
+## Project planning based on Epics and User stories
+### Epic 1: User orientation and navigation
+- US1 [Understand the purpose of the site quickly](https://github.com/JNicolin/MS1-KiteAcademy/issues/6)
+- US2 [Navigate easily between pages](https://github.com/JNicolin/MS1-KiteAcademy/issues/8)
+- US3 [Access external links for social media](https://github.com/JNicolin/MS1-KiteAcademy/issues/12)
+ 
+### Epic 2: Accessibility and content
+- US4 [Access course and event information from any device](https://github.com/JNicolin/MS1-KiteAcademy/issues/1)
+- US5 [View and inquire about rental and for-sale equipment](https://github.com/JNicolin/MS1-KiteAcademy/issues/2)
+- US6 [Mobile accessibility](https://github.com/JNicolin/MS1-KiteAcademy/issues/10)
+- US7 [Learn about lesson types](https://github.com/JNicolin/MS1-KiteAcademy/issues/11)
+- US8 [See services, lessons and equipment](https://github.com/JNicolin/MS1-KiteAcademy/issues/7)
+
+### Epic 3: Communication and conversion
+- US9 [Collect attendee details for planning and invoicing](https://github.com/JNicolin/MS1-KiteAcademy/issues/4)
+- US10 [Submit a contact form](https://github.com/JNicolin/MS1-KiteAcademy/issues/9)
+
+## Kanban board to track progress
+The progress of the project is tracked using a Kanban board. Progress can be followed [on this link](https://github.com/users/JNicolin/projects/4/views/1).
+
+![Kanban](assets/screenshots/Kanban.png)
+
 # Validation and testing
-## Manual testing
-Clicking through the site gave some first findings. 
--	Automatic closure of the collapsed menu was not working. Added the JS-script provided by CI.
+## Functional testing
+### Functional test cases
 
-### Forms testing
-There are two forms that were manually tested with the following test-cases: 
-- Submit is not possible with any mandatory field left empty.
-- Each field accepts only the intended type of input: text, numbers, email etc. 
+| #  | Feature                         | Expected                         | Method               | Outcome                    | Status | User Story |
+|----|----------------------------------|----------------------------------|------------------------|-----------------------------|--------|------------|
+| 1  | Homepage content                | Show intro and call-to-action    | Visit homepage        | Content displayed           | Pass   | [US1](https://github.com/JNicolin/MS1-KiteAcademy/issues/6) |
+| 2  | Navigation: Home link           | Go to homepage                   | Click "Home"          | Page loaded                 | Pass   | [US2](https://github.com/JNicolin/MS1-KiteAcademy/issues/8) |
+| 3  | Navigation: Services link       | Go to Services section           | Click "Service"       | Section displayed           | Pass   | [US2](https://github.com/JNicolin/MS1-KiteAcademy/issues/8) |
+| 4  | Navigation: Events link         | Go to Events section             | Click "Events"        | Section visible             | Pass   | [US2](https://github.com/JNicolin/MS1-KiteAcademy/issues/8) |
+| 5  | Navigation: Equipment link      | Go to Equipments page            | Click "Equipment"     | Page loaded                 | Pass   | [US2](https://github.com/JNicolin/MS1-KiteAcademy/issues/8) |
+| 6  | External social links           | Open in new tab, correct target  | Click icons           | Broken/missing href         | Fail   | [US3](https://github.com/JNicolin/MS1-KiteAcademy/issues/12) |
+| 7  | Footer content and icons        | Show contact info + social icons | Scroll to footer      | Icons shown, not linked     | Fail   | [US3](https://github.com/JNicolin/MS1-KiteAcademy/issues/12) |
+| 8  | Logo navigation                 | Click logo → homepage            | Click logo            | Redirect successful         | Pass   | [US2](https://github.com/JNicolin/MS1-KiteAcademy/issues/8) |
+| 9  | 404 error handling              | Show fallback error page         | Invalid URL           | GitHub 404 page             | Pass   | [US2](https://github.com/JNicolin/MS1-KiteAcademy/issues/8) |
+|10  | Mobile layout                   | Site adapts to small screens     | Resize / Responsinator| Layout responsive           | Pass   | [US6](https://github.com/JNicolin/MS1-KiteAcademy/issues/10) |
+|11  | Performance: Load speed         | Fast initial load                | Load site             | Site loads quickly          | Pass   | [US6](https://github.com/JNicolin/MS1-KiteAcademy/issues/10) |
+|12  | HTML heading structure          | Use semantic heading tags        | Inspect DOM           | Logical order confirmed     | Pass   | [US1](https://github.com/JNicolin/MS1-KiteAcademy/issues/6) |
+|13  | Lesson descriptions             | Training info shown              | View services section | Content correct             | Pass   | [US7](https://github.com/JNicolin/MS1-KiteAcademy/issues/11) |
+|14  | Services presentation           | Show cards, info, and image      | View services cards   | Cards visible               | Pass   | [US8](https://github.com/JNicolin/MS1-KiteAcademy/issues/7) |
+|15  | Equipment overview              | List rental/sales equipment      | View equipment page   | Gear listed properly        | Pass   | [US5](https://github.com/JNicolin/MS1-KiteAcademy/issues/2) |
+|16  | Course/event overview           | Display offering summary         | View homepage/events  | Info visible                | Pass   | [US4](https://github.com/JNicolin/MS1-KiteAcademy/issues/1) |
+|17  | Forms on mobile                 | Forms usable on small screens    | Submit via phone      | Layout responsive           | Pass   | [US6](https://github.com/JNicolin/MS1-KiteAcademy/issues/10) |
+|18  | Contact form submission         | Accept valid data, confirm       | Fill and submit       | No confirmation             | Fail   | [US10](https://github.com/JNicolin/MS1-KiteAcademy/issues/9) |
+|19  | Contact form validation         | Block submit if fields empty     | Submit empty form     | No warning shown            | Fail   | [US10](https://github.com/JNicolin/MS1-KiteAcademy/issues/9) |
+|20  | Field-level validation          | Enforce correct data types       | Enter invalid inputs  | Validation successful       | Pass   | [US10](https://github.com/JNicolin/MS1-KiteAcademy/issues/9) |
+|21  | Reservation form fields         | Collect name, phone, email       | Submit form           | Data captured               | Pass   | [US9](https://github.com/JNicolin/MS1-KiteAcademy/issues/4) |
+|22  | Reservation confirmation        | Show message after submit        | Submit form           | Confirmation visible        | Pass   | [US9](https://github.com/JNicolin/MS1-KiteAcademy/issues/4) |
+|23  | Hero section CTA button         | Navigate to booking or target    | Click CTA             | Linked to wrong place       | Fail   | [US2](https://github.com/JNicolin/MS1-KiteAcademy/issues/8) |
+|24  | Hero image loading              | Display background image         | View hero section     | Fixed path error            | Pass   | [US2](https://github.com/JNicolin/MS1-KiteAcademy/issues/8) |
+|25  | Surfing activity imagery        | Show inspiring action photos     | View courses/events   | Images shown                | Pass   | [US4](https://github.com/JNicolin/MS1-KiteAcademy/issues/1) |
 
-Result: All testcases passed OK!
+### Functional testing outcome
+The table indicates the outcome before corrections. 
+- TC6 wrong link to Instagram
+- TC7 missing links to social media
+- TC18 no confirmation of a correct submit was shown
+- TC19 validation of form failed as it accepted empty fields.
+- TC23 the button on the index-page was leading to the top of the index-page rather than to the booking form.
+- TC24 there was an absolute link in the URL to the Hero-section background-image. No image was displayed at first deploy.  
 
-### Links testing
-There are links on all pages, in the navbar and in buttons Test-cases
-- Links leading to correct target
-- Hover-effect correct on buttons 
+All errors listed have been fixed. No errors remain in the deployed version. All testcases now have passed OK.
 
-Result 
--	the button on the index-page was leading to the top of the index-page rather than to the booking form.
-- There was an absolute link in the URL to the Hero-section background-image. No image was displayed at first deploy.  
-
-No remaining bugs. All testcases passed OK!
-
-### Testing for responsiveness
+## Testing for responsiveness
 Cross-browser testing was done to validate the responsiveness of the website accross different screensizes and positions. Tools like Chrome Inspect and the dedicated Responsinator.com were used. 
 
 Testing for responsiveness passed OK!
@@ -169,15 +205,15 @@ HTML-related
 -	Visual sizing and positioning of images with varying orignal size and layout. Use of relative measures rather than fixed values worked well. 
 -	Many iterations on trimming of paddings and margins to get harmony across all screen sizes. 
 -	Some mistakes from copy/paste when reusing code between html-files. Notably reusing Navbar, Footer and custom Button elements.
-- Maintaining the correct aspect ratio was somewhat tricky to a start. 
+-   Maintaining the correct aspect ratio was somewhat tricky to a start. 
 
 ## Known bugs
-No known remaining bugs. 
+There are no known remaining bugs. 
 
 # Technology used
 ## Languages
-- HTML5
-- CSS3
+- HTML
+- CSS
 
 ## Frameworks - Libraries - Programs used
 - GitHub - code repository
